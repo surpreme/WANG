@@ -68,4 +68,6 @@ import用的是相机 系统相机和自定义相机并裁剪
 用户页面用的是greendao  ORM
 顶部通知栏是用的8.0通知栏 有消息提示还有订阅消息两种不同的通知栏通知形式 这里参考郭霖大神的论文
 离线中心用的是okhttp断点下载 
+
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019031716215189.jpg)![在这里插入图片描述](https://img-blog.csdnimg.cn/20190317162203215.jpg)![在这里插入图片描述](https://img-blog.csdnimg.cn/20190317162214820.jpg)
