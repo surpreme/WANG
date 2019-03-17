@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/iphone_text_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="电话"
+        android:background="@color/blue"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        />
+
+    <EditText
+        android:id="@+id/message_iphone_id_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="请输入你想发送的信息" />
+
+    <TextView
+        android:id="@+id/message_iphone_tet_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="@color/blue"
+        android:text="手机短信" />
+
+</LinearLayout>

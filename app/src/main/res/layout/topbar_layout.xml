@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/topbar_one_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="兼容早期2.0x顶部通知栏"
+        android:background="@drawable/rounded_rectangle_green"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+
+    <Button
+        android:id="@+id/topbar_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="兼容26顶部通栏"
+        android:background="@drawable/rounded_rectangle_green"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+
+    <Button
+        android:id="@+id/topbar_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="兼容16以上顶部通知栏"
+        android:background="@drawable/rounded_rectangle_green"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+
+    <Button
+        android:id="@+id/topbar_four_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="兼容8.0顶部通知栏-聊天信息"
+        android:background="@drawable/rounded_rectangle_green"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+
+    <Button
+        android:id="@+id/topbar_four2_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="兼容8.0顶部通知栏-订阅信息"
+        android:background="@drawable/rounded_rectangle_green"/>
+</LinearLayout>

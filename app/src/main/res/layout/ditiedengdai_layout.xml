@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000">
+
+    <VideoView
+        android:id="@+id/ditie_videoView_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:paddingLeft="10dp"
+        android:text="亲亲 本微电影来自网络 请耐心等待..." />
+
+    <TextView
+        android:id="@+id/ditie_textView_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="地铁等待微电影-我只想用自己最擅长的去让你开心 我会默默滴 你开心就好"
+        android:background="@color/blue"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"/>
+</LinearLayout>

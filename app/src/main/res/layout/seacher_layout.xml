@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/seacher_back_btn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_revert" />
+        <View
+            android:layout_width="15dp"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/edt_search_text_id"
+            android:layout_width="0dp"
+            android:hint="大家都在搜 XXX"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:layout_weight="1"
+            android:lines="1"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/seacher_none_text_img_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_delete" />
+
+        <Button
+            android:id="@+id/searcher_btn_id"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:text="搜索"
+            android:background="@drawable/rounded_rectangle_green"/>
+
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/seacher_list_id"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </ListView>
+
+    <TextView
+        android:paddingTop="15dp"
+        android:textColor="#000"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="热门搜索" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center|left">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="吴青峰新歌"
+                android:background="@drawable/rounded_rectangle_green"/>
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_rectangle_green"
+                android:text="起风了" />
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_rectangle_green"
+                android:text="张艺兴远东韵律" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="7dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center|left">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_rectangle_green"
+                android:text="夏目友人帐" />
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_rectangle_green"
+                android:text="董又霖就喜欢你" />
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_rectangle_green"
+                android:text="薛之谦" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="7dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="left">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_rectangle_green"
+                android:text="水星记" />
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_rectangle_green"
+                android:text="王力宏" />
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_rectangle_green"
+                android:text="光年之外" />
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_rectangle_green"
+                android:text="Taylor Swift" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:paddingTop="15dp"
+        android:textColor="#000"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="搜索历史" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center|left">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="吴青峰新歌"
+                android:background="@drawable/rounded_rectangle_green"/>
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_rectangle_green"
+                android:text="起风了" />
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_rectangle_green"
+                android:text="张艺兴远东韵律" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="7dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center|left">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_rectangle_green"
+                android:text="夏目友人帐" />
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_rectangle_green"
+                android:text="董又霖就喜欢你" />
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_rectangle_green"
+                android:text="薛之谦" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="7dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="left">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_rectangle_green"
+                android:text="水星记" />
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_rectangle_green"
+                android:text="王力宏" />
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_rectangle_green"
+                android:text="光年之外" />
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_rectangle_green"
+                android:text="Taylor Swift" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="由于无服务器返回数据 这里使用通讯录搜索" />
+
+
+</LinearLayout>

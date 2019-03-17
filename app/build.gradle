@@ -1,0 +1,85 @@
+apply plugin: 'com.android.application'
+//添加
+apply plugin: 'org.greenrobot.greendao'
+
+android {
+    aaptOptions{
+        noCompress "avi"
+    }
+    compileSdkVersion 28
+    defaultConfig {
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "arm64-v8a", "x86", "arm64-v8a", "x86_64"
+        }
+        applicationId "com.liziyang.dall"
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+    // Glide图形转换工具
+    compile 'jp.wasabeef:glide-transformations:3.0.1'
+    implementation 'com.android.support:multidex:1.0.3'
+
+    // GPUImage
+    compile 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.3.0'
+    compile 'com.youth.banner:banner:1.4.10'
+    compile 'com.zhihu.android:matisse:0.5.2-beta3'
+    implementation 'cn.bingoogolapple:bga-qrcode-zxing:1.3.6'
+    implementation 'cn.bingoogolapple:bga-qrcode-zbar:1.3.6'
+    compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.12'
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1'
+    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1'
+    implementation 'com.android.support:gridlayout-v7:28.0.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    // 高德
+    compile 'com.amap.api:3dmap:6.6.0'
+    compile 'com.amap.api:location:4.4.0'
+    compile 'com.amap.api:search:6.5.0.1'
+    implementation("com.squareup.okhttp3:okhttp:3.12.0")
+    testImplementation("com.squareup.okhttp3:mockwebserver:3.12.0")
+    implementation "io.reactivex.rxjava2:rxjava:2.0.1"
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    //添加
+    implementation 'org.greenrobot:greendao:3.2.2'
+    //导入加密的库
+    implementation 'net.zetetic:android-database-sqlcipher:3.5.6'
+
+}
+greendao{
+    //版本号
+    schemaVersion 1
+    //设置新建的三个文件包的位置
+    daoPackage 'com.liziyang.dall.greengao2'
+    //设置DaoMaster、DaoSession、Dao目录
+    targetGenDir 'src/main/java'
+    //自动生成单元测试。
+    generateTests false
+    //应存储生成的单元测试的基本目录。默认为 src / androidTest / java
+
+    targetGenDirTests 'src/main/java'
+}

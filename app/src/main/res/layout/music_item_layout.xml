@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/music_item_img_id"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="5dp"
+            android:src="@mipmap/logo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/music_item_name_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="歌曲名"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"/>
+
+
+
+        <TextView
+            android:id="@+id/music_item_time_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="00:00" />
+        <TextView
+            android:id="@+id/music_item_author_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:text="艺术家"
+            android:paddingLeft="5dp"/>
+    </LinearLayout>
+</LinearLayout>

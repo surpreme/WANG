@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_more3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true"
+        android:background="#ffff">
+
+        <Button
+            android:id="@+id/button_more3_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffff"
+            android:text="ListView"
+            android:textColor="@color/colorAccent"/>
+
+        <Button
+            android:id="@+id/button2_more3_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffff"
+            android:text="GirdView"
+            android:textColor="@color/colorAccent"/>
+
+        <Button
+            android:id="@+id/button3_more3_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffff"
+            android:text="GirdView2"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/button4_more3_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffff"
+            android:text="瀑布流"
+            android:textColor="@color/colorAccent"/>
+
+        <Button
+            android:id="@+id/button5_more3_id"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:text="+"
+            android:textColor="@color/colorAccent"/>
+
+        <Button
+            android:id="@+id/button6_more3_id"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:text="-"
+            android:textColor="@color/colorAccent"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1"
+        android:layout_below="@+id/linearLayout_more3"
+        android:layout_alignParentLeft="true" />
+
+
+</RelativeLayout>

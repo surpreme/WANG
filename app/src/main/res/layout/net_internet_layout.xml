@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <WebView
+        android:id="@+id/webView_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+    </WebView>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#5500"
+        android:layout_marginLeft="5dp"
+        android:paddingRight="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/webView_back_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_media_rew" />
+            <EditText
+                android:id="@+id/internet_searcher_edit_id"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:focusable="true"
+                android:textColor="#000"
+                android:focusableInTouchMode="true"
+                android:hint="请输入网址"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/internet_searcher_button_icon_id"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/ic_menu_search" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <declare-styleable name="NoDataListView">
+       <!--最低的item个数-->
+       <attr name="minItem" format="integer"/>
+       <!--无数据的显示图片-->
+       <attr name="noDataImg" format="reference"/>
+   </declare-styleable>
+</resources>

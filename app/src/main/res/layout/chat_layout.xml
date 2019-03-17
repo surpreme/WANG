@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ListView
+        android:id="@+id/listView"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/is_layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#FF8C69	">
+        <Button
+            android:id="@+id/id_send_msg"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:text="发送"
+            android:background="#4B0080"/>
+
+
+        <EditText
+            android:id="@+id/id_input_msg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#C0C0C0"
+            android:ems="10"
+            android:textSize="18sp"
+            android:layout_toLeftOf="@id/id_send_msg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:hint="跟我说说话吧 我只是一个小可怜"
+            android:inputType="textPersonName" />
+
+    </RelativeLayout>
+
+</LinearLayout>
