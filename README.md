@@ -26,6 +26,9 @@
 import用的是相机 系统相机和自定义相机并裁剪
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190317161049505.jpg)![在这里插入图片描述](https://img-blog.csdnimg.cn/20190317161511205.jpg)![在这里插入图片描述](https://img-blog.csdnimg.cn/20190317161522800.jpg)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190317161535434.jpg)![在这里插入图片描述](https://img-blog.csdnimg.cn/20190317161556662.jpg)![在这里插入图片描述](https://img-blog.csdnimg.cn/20190317161612316.jpg)
+
+
+
 顶部+是用的卡牌布局+popwindows
 这里实现了扫一扫 用了zxing和知乎开源的相册选择器 这里我添加了手动打开闪光灯 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019031716073536.jpg)![在这里插入图片描述](https://img-blog.csdnimg.cn/20190317160744362.jpg)
