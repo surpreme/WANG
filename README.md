@@ -59,9 +59,12 @@ import用的是相机 系统相机和自定义相机并裁剪
 >7这里使用了SmartRefreshLayout下拉刷新动画 
 
 这里分功能又写了 本地音乐播放器 图灵机器人高德地图 使用系统mediaplyer+surfaceView播放视频 以及短信验证码和拨打电话的功能
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190317155000110.jpg)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190317155021779.jpg)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190317155139459.jpg)
+
+
 这是动态的页面
  
 
