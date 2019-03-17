@@ -36,6 +36,9 @@ import用的是相机 系统相机和自定义相机并裁剪
 
 
  - 主页
+ 
+ 
+ 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019031715201119.jpg)
  >1顶部bar使用了android studio给的模板
 
