@@ -91,3 +91,9 @@ import用的是相机 系统相机和自定义相机并裁剪
 
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019031716215189.jpg)![在这里插入图片描述](https://img-blog.csdnimg.cn/20190317162203215.jpg)![在这里插入图片描述](https://img-blog.csdnimg.cn/20190317162214820.jpg)
+
+
+
+版本更新到@1.0.2
+
+添加了调整系统音量 以及textView的扩展的功能这些常见功能 后续还会更新 敬请期待 
