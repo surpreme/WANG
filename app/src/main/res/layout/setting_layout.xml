@@ -423,6 +423,7 @@
                     android:layout_height="match_parent"
                     android:background="#5fff"/>
                 <LinearLayout
+                    android:id="@+id/sound_layout_id"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:orientation="vertical"
@@ -438,7 +439,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="观看历史" />
+                        android:text="声音设置" />
                 </LinearLayout>
                 <View
                     android:layout_width="2dp"
@@ -483,6 +484,7 @@
                 android:layout_height="100dp"
                 android:orientation="horizontal">
                 <LinearLayout
+                    android:id="@+id/text_layout_id"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:orientation="vertical"
@@ -498,8 +500,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="我的钱包
-" />
+                        android:text="评价" />
                 </LinearLayout>
                 <View
                     android:layout_width="2dp"

@@ -156,11 +156,17 @@
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".Main1"/>
         </activity>
-
+        <activity android:name=".SoundActivity" />
+        <activity android:name="com.com.MyText.TextViewActivity" />
 
 
         <service android:name=".getMusic.MusicServicer" />
         <service android:name="com.amap.api.location.APSService"></service>
+        <service android:name=".MyService" >
+        <intent-filter>
+            <action android:name="hey.alarmtest"/>
+        </intent-filter>
+        </service>
 
     </application>
 

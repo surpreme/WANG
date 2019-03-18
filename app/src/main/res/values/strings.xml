@@ -18,6 +18,7 @@
     <string name="login_new_user_string">注册新用户</string>
     <string name="login_new_user_service_book_string">服务条款</string>
 
+
     <string name="error_gif">x or y bound size should be at least %1$dpx and file size should be no more than %2$sM</string>
 
 

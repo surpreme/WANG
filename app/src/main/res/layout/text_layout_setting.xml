@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <com.com.MyText.MyText
+        android:id="@+id/mytext_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:padding="5dp"
+        android:background="@drawable/rounded_rectangle_green"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/text_layout_edit_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入你想设置的文字"
+        android:inputType="textPostalAddress" />
+
+    <Button
+        android:id="@+id/text_layout_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这里是textView超链接"
+        android:gravity="center" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+    <TextView
+        android:id="@+id/text_layout_moreInternet1_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:text=""/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+    <TextView
+        android:id="@+id/text_layout_moreInternet2_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:text=""/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+    <TextView
+        android:id="@+id/text_layout_moreInternet3_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:text=""/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+    <Button
+        android:id="@+id/text_layout_btn2_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置超链接" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+    <Button
+        android:id="@+id/text_layout_snakebar_id"
+        android:background="@drawable/rounded_rectangle_green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SnakeBar" />
+</LinearLayout>
